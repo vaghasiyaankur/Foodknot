@@ -1,0 +1,325 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+
+/* custom css start */
+.fs-18 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+}
+.fw-400{
+    font-weight: 400;
+}
+
+.color_gray{
+    color: #333333;
+}
+
+.fs-40 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.fs-23 {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 26px;
+}
+
+.fs-20 {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.fs-24 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.fs-17 {
+    font-size: 17px;
+    line-height: 21px;
+}
+
+/* custom css end */
+/* ======= hero start ======== */
+.hero {
+    background-image: url(../image/bg-image/min-bg-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero .hero-inner {
+    height: 100vh;
+}
+
+.hero .hero-inner .image-logo {
+    width: 100%;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.hero .hero-inner .foodknot-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 75px;
+    position: relative;
+}
+
+.hero .hero-inner .foodknot-title::after {
+    content: "";
+    position: absolute;
+    border-bottom: 1.5px solid #FFFFFF;
+    width: 100%;
+    max-width: 200px;
+    top: 0px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-top: 20px;
+}
+
+.hero .hero-inner .foodkont-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    max-width: 347px;
+}
+
+.hero .hero-inner .check-btn {
+    background: #FFFFFF;
+    box-shadow: inset 0px -2px 3px rgba(21, 193, 170, 0.6);
+    border-radius: 8px;
+    font-style: normal;
+    color: #0AB39C;
+}
+
+.hero .hero-inner .check-btn:hover {
+    color: #0AB39C;
+}
+
+/* =========== Demo start ============== */
+.demo  .demo-inner{
+    border: 25px solid black;
+    border-radius: 19px;
+} 
+.demo-inner{
+    width: 100%;
+    height: 100%;
+}
+.demo-inner .link-image img{
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    min-height: 700px;
+    max-height: 700px;
+}
+.demo-inner .link-image{
+    width: 100%;
+    max-width: 100%;
+    min-height: 700px;
+    max-height: 700px;
+}
+
+.demo-link{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: none;
+}
+.demo-link iframe{
+    height: 100%;
+    max-width: 100%;
+    max-height: 700px;
+    min-height: 700px;
+}
+.demo .demo_container {
+    width: 100%;
+    max-width: 1180px;
+    height: 100%;
+    max-height: 820px;
+    min-height: 820px;
+}
+
+/* =========== Pos management start ============== */
+.pos-management .pos-management-inner {
+    background-image: url(../image/bg-image/bg-img2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.pos-management .pos-management-inner .card {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 30px rgba(34, 34, 34, 0.09);
+    border-radius: 10px;
+}
+
+.pos-management .pos-management-inner .card .super-admin {
+    width: 100%;
+    max-width: 120px;
+    height: 100%;
+    max-height: 120px;
+    min-height: 120px;
+    background: hwb(172deg 4% 30% / 10%);
+}
+.pos-management .pos-management-inner .card:hover{
+    background: #0AB39C;
+    box-shadow: 0px 1px 30px rgba(34, 34, 34, 0.09);
+    border-radius: 10px;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+}
+.pos-management .pos-management-inner .card:hover .super-admin{
+    background-color: #FFFFFF;
+}
+.pos-management .pos-management-inner .card:hover h2,
+.pos-management .pos-management-inner .card:hover span{
+    color: #FFFFFF;
+}
+/* =========== work start ============== */
+.work{
+    background-image: url(../image/bg-image/bg-work.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.work .work-inner:hover{
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+}
+.work .work-inner h2{
+    border-bottom: 1px solid #333333;
+}
+.work .work-inner:hover h2{
+    color:#0AB39C ;
+    border-bottom: 1px solid #0AB39C;
+    transition: all 0.5s ease-in;
+}
+.work .work-inner:hover p{
+    color:#0AB39C;
+    transition: all 0.5s ease-in;
+}
+/* =========== FoodKnot Restaurant start============== */
+.foodknot-restaurant .foodknot-download {
+    background: linear-gradient(289.42deg, rgba(247, 146, 86, 0.1) 14.21%, rgba(255, 192, 154, 0.1) 105.95%);
+    border: 1px solid transparent;
+}
+.foodknot-restaurant .foodknot-setting{
+    background: linear-gradient(283.67deg, rgb(29 78 137 / 10%) -6.51%, rgb(84 129 184 / 10%) 107.4%);
+    border: 1px solid transparent;
+}
+.foodknot-restaurant .foodknot-food{
+    background: linear-gradient(284.08deg, rgb(125 188 169 / 10%) -1.79%, rgb(146 218 196 / 10%) 103.82%);
+    border: 1px solid transparent;
+}
+.foodknot-restaurant .foodknot-table{
+    background: linear-gradient(284.58deg, rgb(0 178 202 / 10%) 0.32%, rgb(122 217 230 / 10%) 105.82%);
+    border: 1px solid transparent;
+}
+.foodknot-restaurant .card.foodknot-download:hover {
+    border: 1px solid rgba(247, 146, 86, 1) !important;
+    transition: all 0.5s ease-in !important;
+}
+.foodknot-restaurant .card.foodknot-setting:hover {
+    border: 1px solid rgb(29, 78, 137, 1) !important;
+    transition: all 0.5s ease-in !important;
+}
+.foodknot-restaurant .card.foodknot-food:hover {
+    border: 1px solid rgb(125, 188, 169,1) !important;
+    transition: all 0.5s ease-in !important;
+}
+.foodknot-restaurant .card.foodknot-table:hover {
+    border: 1px solid rgb(0, 178, 202, 1) !important;
+    transition: all 0.5s ease-in !important;
+}
+.foodknot-restaurant .foodknot-download-inner{
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 120px;
+    height: 100%;
+    max-height: 120px;
+    min-height: 120px;
+} 
+/* =========== Current orders start  start============== */
+.current-order{
+    background-image: url(../image/bg-image/bg-work.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.current-order .current-order-inner{
+    width: 100%;
+    max-width: 331px;
+}
+.current-order .current-order-inner h2{
+    border-bottom: 1px solid #333333;
+}
+/* =========== Readable code with no dependencies start============== */
+.readable-code .readable-code-inner .nav{
+    border-width: 1.5px;
+    border-style: solid;
+    /* border-color:  linear-gradient( rgba(10, 179, 156, 1), rgba(10, 179, 156, 0.141)) !important; */
+    border: 1.5px solid rgb(10 179 156 / 36%)!important;
+    border-radius: 40px !important;
+    clip-path: polygon(0 0, 64% 0, 64% 100%, 0 100%);
+}
+.readable-code .readable-code-inner .nav-pills .nav-link{
+    color: #333333 !important ;
+}
+.readable-code .readable-code-inner .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #FFFFFF !important;
+    background-color: #0AB39C !important;
+}
+/* =========== footer start============== */
+.footer .footer-inner{
+    background: #F8FBFE;
+}
+.footer .footer-inner .image-logo{
+    width: 100%;
+    max-width: 75px;
+}
+.footer .footer-inner-contact{
+    background: #0AB39C;
+}
+
+
+
+
+/* =========== Responsive css start============== */
+@media screen and (max-width:1400px){
+    .hero .hero-inner .foodknot-title {
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 45px;
+    }
+}
+
+@media screen and (max-width:1240px){
+    .readable-code .readable-code-inner .nav{
+        clip-path: polygon(0 0, 80% 0, 80% 100%, 0 100%);
+    }
+}
+@media screen and (max-width:992px) {
+    .hero .hero-inner{
+        height: auto;
+        padding: 70px 0;
+    }
+    .hero .hero-inner .foodknot-title {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .hero .hero-inner .foodkont-text {
+       font-size: 25px;
+       line-height: 28px;
+        max-width: 100%;
+    }
+}
