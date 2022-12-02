@@ -133,7 +133,7 @@
     position: absolute;
     top: 0;
     width: 100%;
-    display: none;
+    display: block;
 }
 .demo-link iframe{
     height: 100%;
@@ -251,10 +251,11 @@
 } 
 /* =========== Current orders start  start============== */
 .current-order{
-    background-image: url(../image/bg-image/bg-work.png);
+    /* background-image: url(../image/bg-image/bg-work.png); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background: #F8FBFE;
 }
 .current-order .current-order-inner{
     width: 100%;
@@ -281,7 +282,7 @@
 }
 /* =========== footer start============== */
 .footer .footer-inner{
-    background: #F8FBFE;
+    background: #FFF;
 }
 .footer .footer-inner .image-logo{
     width: 100%;
